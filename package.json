@@ -1,5 +1,5 @@
 {
-  "name": "nikkaxmd",
+  "name": "shaka-base",
   "version": "1.0.0",
   "description": "nikka-md simple multi device WhatsApp Bot.",
   "main": "./haki.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hakisolos/nikka-x-md.git"
+    "url": "git+https://github.com/your/repo.git"
   },
   "keywords": [
     "bot",
@@ -22,10 +22,11 @@
   "developer": "haki",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/hakisolos/nikka-x-md/issues"
+    "url": "https://github.com/your/repo/issues"
   },
-  "homepage": "https://github.com/hakisolos/nikka-x-md#readme",
+  "homepage": "https://github.com/your/repo-md#readme",
   "dependencies": {
+    "kinghaki-api": "^1.0.1",
     "@whiskeysockets/baileys": "6.7.9",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "3.0.0",
