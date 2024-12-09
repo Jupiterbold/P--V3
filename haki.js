@@ -93,7 +93,7 @@ async function Abhiy() {
     const { connection, lastDisconnect } = s;
 
     if (connection === "connecting") {
-      console.log("ɴɪᴋᴋᴀ");
+      console.log("shaka");
       console.log("ᴘʀᴏᴄᴇssɪɴɢ sᴇssɪᴏɴ ɪᴅ");
     }
 
@@ -135,12 +135,12 @@ async function Abhiy() {
         }
       });
 
-      console.log("ɴɪᴋᴋᴀ x ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ ✅");
+      console.log(" ᴄᴏɴɴᴇᴄᴛᴇᴅ ✅");
 
       const packageVersion = require("./package.json").version;
       const totalPlugins = events.commands.length;
       const workType = config.WORK_TYPE;
-      const statusMessage = `ɴɪᴋᴋᴀ x ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ  ✅\nᴠᴇʀsɪᴏɴ: ${packageVersion}\nᴄᴍᴅs: ${totalPlugins}\ᴡᴏʀᴋᴛʏᴘᴇ: ${workType}\n 𝗺𝗮𝗱𝗲 𝘄𝗶𝘁𝗵 ❤️ 𝗯𝘆 𝗵𝗮𝗸𝗶`;
+      const statusMessage = `shaka connected  ✅\nᴠᴇʀsɪᴏɴ: ${packageVersion}\n ᴄᴍᴅs: ${totalPlugins}\ᴡᴏʀᴋᴛʏᴘᴇ: ${workType}\n 𝗺𝗮𝗱𝗲 𝘄𝗶𝘁𝗵 ❤️ 𝗯𝘆 𝗵𝗮𝗸𝗶`;
 
       await conn.sendMessage(conn.user.id, {
         image: { url: "https://files.catbox.moe/mnp025.jpg" },
