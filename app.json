@@ -4,12 +4,12 @@
   "logo": "https://i.imgur.com/Uc0uIkO.jpeg",
   "keywords": ["whatsapp"],
   "repository": "https://github.com/your/repo",
-  "website": "https://github.com/sataniceypz/Izumi-v2",
-  "success_url": "https://github.com/sataniceypz/Izumi-v2",
+  "website": "https://github.com/your/repo",
+  "success_url": "https://github.com/your/repo",
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "IZUMI-XD session id",
+      "description": " session id",
       "required": true
     },
     "LOGS": {
@@ -19,22 +19,22 @@
      "AUDIO_DATA": {
       "description": "audio data , title;artist;image url",
       "required": "false",
-      "value": "𝐄𝐘𝐏𝐙 ; 𝗜𝗭𝗨𝗠𝗜-𝗫𝗗 ; https://i.imgur.com/Uc0uIkO.jpeg"
+      "value": "shaka ; base ; https://i.imgur.com/Uc0uIkO.jpeg"
      },
      "CAPTION": {
       "description": "enter your media caption",
       "required": "false",
-      "value": "𝗜𝗭𝗨𝗠𝗜-𝗫𝗗"
+      "value": "shaka"
     },
        "STICKER_DATA": {
       "description": "Sticker pack name, eg : 𝗜𝗭𝗨𝗠𝗜 𝗫𝗗;𝐄𝐘𝐏𝐙",
       "required": "false",
-      "value": "𝗜𝗭𝗨𝗠𝗜 𝗫𝗗;𝐄𝐘𝐏𝐙"
+      "value": "shaka;base"
     },
        "BOT_INFO": {
       "description": "Bot info : botname;ownername;imageurl - image or video",
       "required": "false",
-      "value": "𝗜𝗭𝗨𝗠𝗜 𝗫𝗗;𝐄𝐘𝐏𝐙;https://i.imgur.com/Uc0uIkO.jpeg"
+      "value": "shaka;haki;https://i.imgur.com/Uc0uIkO.jpeg"
     },
      "ALWAYS_ONLINE": {
       "description": "Bot online online : true",
