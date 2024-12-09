@@ -1,9 +1,9 @@
 {
   "name": "shaka-base",
   "version": "1.0.0",
-  "description": "nikka-md simple multi device WhatsApp Bot.",
-  "main": "./haki.js",
-  "type": "commonjs",
+  "description": "simple multi device WhatsApp Bot.",
+  "main": "./haki.js", 
+  "type": "commonjs", 
   "scripts": {
     "start":  "pm2 start . --attach --name nikka"
   },
