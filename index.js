@@ -26,7 +26,7 @@ require("events").EventEmitter.defaultMaxListeners = 50;
 const { File } = require("megajs");
 
 (async function () {
-  var prefix = "PLATINUM";
+  var prefix = "Nikka-X";
   var output = "./lib/session/";
   var pth = output + "creds.json";
 
