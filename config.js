@@ -20,6 +20,8 @@ module.exports = {
   BOT_INFO: process.env.BOT_INFO || "ɴɪᴋᴋᴀ ᴍᴅ;ʜᴀᴋɪ;https://files.catbox.moe/mnp025.jpg",
   AUDIO_DATA: process.env.AUDIO_DATA || "ʜᴀᴋɪ;shaka;https://files.catbox.moe/mnp025.jpg",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/74NG4nf.jpeg",
+  ALIVE_MSG: process.env.ALIVE_MSG ||  "Hey there, I'm alive",
   PORT: process.env.PORT || 3000,
   CAPTION: process.env.CAPTION || "shaka",
   WORK_TYPE: process.env.WORK_TYPE || "private",
