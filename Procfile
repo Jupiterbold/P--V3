@@ -1,1 +1,1 @@
-worker: node haki.js 
+worker: node imdex.js 
