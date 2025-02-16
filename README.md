@@ -1,4 +1,4 @@
-# SHAKA BASE
+# Pʟᴀᴛɪɴᴜᴍ-V3
 ### HOW CAN YOU INTEGRATE YOUR SESSION ID?:
 ## 1. visit <a href= "https://github.com/IRON-M4N/pair-example">PAIR EXAMPLE BY IRON M4N</a></b>
 fork the repo and change prefix and deploy but stuff in config onlyy, then head to index.js and ./lib/session.js and change the prefix to the one you set in the pair example you deployed, pair abd put session id
